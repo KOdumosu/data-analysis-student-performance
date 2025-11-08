@@ -35,9 +35,16 @@ The program analyzes a public dataset on **student performance** to discover rel
 5. Outputs summary results in the console and displays plots.
 
 ---
-
 ## Requirements
-Install the following Python libraries before running the project:
+
+This project was built using Python 3.11 and the following libraries:
+
+- pandas==2.2.2  
+- matplotlib==3.9.2  
+- seaborn==0.13.2  
+- numpy==1.26.4  
+
+To install all dependencies, run:
 
 ```bash
-pip install pandas matplotlib seaborn
+pip install -r requirements.txt
